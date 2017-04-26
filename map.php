@@ -2,28 +2,51 @@
 <html class="ls-theme-green">
   <head>
     <title>Página com a estrutura inicial</title>
+	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <meta charset="utf-8">
-    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="Insira aqui a descrição da página.">
     <link href="http://assets.locaweb.com.br/locastyle/3.10.0/stylesheets/locastyle.css" rel="stylesheet" type="text/css">
-    <link rel="icon" sizes="192x192" href="/locawebstyle/assets/images/ico-boilerplate.png">
-    <link rel="apple-touch-icon" href="/locawebstyle/assets/images/ico-boilerplate.png">
+    
+    <link href="css/style_map.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="ls-topbar">
-    <center>
-	    <h1 class="ls-brand-name">
-	      <!--<a href="home" class="ls-ico-earth"> </a> -->   
-	      	 Mapa de mesas
-	      </center>    
-	    </h1>
-	</center>
-	  <!-- Nome do produto/marca sem sidebar quando for o pre-painel  -->
+
+  <style type="text/css">
+
+  	.font{
+
+  		color: #ffffff;
+  	}
+
+  </style>
+  	<div class="ls-topbar">
+  		<br>
+
+  		<center>
+  			<h3 class="font"> Mapa de mesas </h3>
+  		</center>
+
 	</div>
 
-    <!-- We recommended use jQuery 1.10 or up -->
+	<div class="ls-sidebar">
+	    <nav class="ls-menu">
+	      <ul>
+	        <li class="ls-active">
+	        	<a href="#"> Adicionar Mesa </a>
+	        </li>
+	      
+	       	<!--<li class="ls-active"><a href="#" class="ls-ico-dashboard">Dashboard</a></li> -->
+	       </ul>
+	    </nav>
+	  </div>
+	</aside>
+
+	<br> <br> <br> <br> <br> <br> <br> <br> <br>
+	<div class="maps">
+
+
+	</div>
+
+
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="http://assets.locaweb.com.br/locastyle/3.10.0/javascripts/locastyle.js" type="text/javascript"></script>
   </body>
