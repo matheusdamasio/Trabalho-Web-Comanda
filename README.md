@@ -1,4 +1,2 @@
 # Trabalho-Web-Comanda
-Códigos e Afins
-
-Nada ainda
+Protótipo HTML feito pelo software Justinmind
